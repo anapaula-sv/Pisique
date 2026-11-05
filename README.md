@@ -99,7 +99,7 @@ Projeto de extensão desenvolvido por estudantes de Engenharia de Software do **
 ##  Documentação
 
 * **Requisitos:** [Documento de requisitos](https://docs.google.com/document/d/1NLlROoEHE7WqnYNCBAP0hLcNCuXikjGr/edit?usp=sharing&ouid=103839283617688695614&rtpof=true&sd=true)
-* **Protótipo de telas:** [Acessar Figma da equipe](LINK)
+* **Protótipo de telas:** [Acessar Figma da equipe]((https://www.figma.com/site/TnWqtogs4YPzjmPtZCzZy0/site-e-tals?node-id=0-1&t=jKrHOhIi9ZOKynCQ-1))
 * **Gestão de tarefas:** [Aba Projects deste repositório](https://github.com/users/anapaula-sv/projects/2)
 
 ---
