@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-secundaria: #637aae;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: 'Lemon/Milk', sans-serif;
+    font-family: 'Lemon/Milk light', sans-serif;
+    transition: .5s;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--cor-secundaria);
+    height: 18rem;
+    padding: 0 103px;
+}
+
+#bloco-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#sub-bloco-1-header {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10.125rem;
+    height: 10.125rem;
+    background-color: #549CD8;
+    border-radius: 50px;
+}
+
+#logo-header img {
+    width: 8.5rem;
+    height: auto;
+    display: block;
+}
+
+#texto-header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+/* MENU DESKTOP */
+
+#conteudo-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transform: translateY(-35px);
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 4px;
+}
+
+nav ul li a {
+    position: relative;
+    padding: 3px 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #040d34;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+nav ul li a:active {
+    opacity: 0.6;
+}
+
+/* BOTÃO CONTATO */
+
+.drs-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #040d34;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: white;
+}
+
+.drs-contato button:hover {
+    box-shadow: 0px 0px 8px #040d34;
+    transform: scale(1.05);
+}
+
+/* INTERRUPTOR DE TEMA */
+
+.trilho .flex {
+    width: 55px;
+    height: 30px;
+    background-color: #5c5c5c;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark .indicador {
+    left: 25px;
+    background-color: #fff;
+}
+
+/* TEMA ESCURO */
+
+body.dark {
+    background-color: #e4e4e4;
+}
+
+main {
+    padding: 30px 103px;
+}
+
+.bloco-projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#sub-bloco-1-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37.5rem;
+    height: 4rem;
+    background-color: #549CD8;
+    border-radius: 50px;
+
+}
