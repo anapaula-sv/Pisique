@@ -72,7 +72,6 @@ Atualmente o projeto está na fase de **desenvolvimento do MVP (Produto Mínimo 
 
 | Camada | Tecnologia |
 | :--- | :--- |
-| **Back-end** | Python com Flask |
 | **Front-end** | HTML, CSS e JavaScript |
 
 ---
