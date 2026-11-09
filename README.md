@@ -103,7 +103,7 @@ Projeto de extensão desenvolvido por estudantes de Engenharia de Software do **
 
 ---
 
-##  Como Executar
+##  Como acessar
 
 ```bash
 # 
