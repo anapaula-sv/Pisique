@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pisique</title>
-    <link rel="stylesheet" href="serviço de apoio/apoio style.css">
-    <link rel="stylesheet" href="area de entrada/perguntas.css">
-    <link rel="stylesheet" href="area de entrada/privacidade.css">
-    <link rel="stylesheet" href="serviço de apoio/rodape.css">
+    <title>Pisiquê</title>
+    <link rel="stylesheet" href="servico-de-apoio/apoio-style.css">
+    <link rel="stylesheet" href="area-de-entrada/perguntas.css">
+    <link rel="stylesheet" href="area-de-entrada/privacidade.css">
+    <link rel="stylesheet" href="servico-de-apoio/rodape.css">
     <link rel="shortcut icon" href="imagens/pepper.png" type="image/x-icon">
 </head>
 
@@ -33,14 +33,13 @@
                     <ul>
                         <li><a href="#projeto">Projeto</a></li>
                         <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#">Serviços</a></li>
+                        <li><a href="servico-de-apoio/serviços de apoio.html">Serviços</a></li>
                         <li><a href="#perguntas">Perguntas Frequentes</a></li>
                     </ul>
                 </nav>
+
                 <div class="drs-contato">
-                    <a href="#" target="_blank">
-                        <button>CVV</button>
-                    </a>
+                    <button type="button" onclick="window.open('https://cvv.org.br', '_blank', 'noopener')">CVV</button>
                 </div>
 
             </div>
@@ -58,12 +57,12 @@
                 <h1>VOCÊ NÃO PRECISA ENFRENTAR</h1>
                 <h1>TUDO SOZINHO</h1>
             </div>
-            <button class="botao-bloco-2">
+            <a class="botao-bloco-2" href="servico-de-apoio/serviços de apoio.html">
                 <span>Encontrar ajuda</span>
-            </button>
-            <button class="botao-2-bloco-2">
+            </a>
+            <a class="botao-2-bloco-2" href="#sobre">
                 <span>Conheça o Projeto</span>
-            </button>
+            </a>
         </section>
         <hr>
 
@@ -90,9 +89,9 @@
                 </div>
 
                 <div class="sobre__botoes">
-                    <a class="sobre__botao" href="#">Acolhimento</a>
-                    <a class="sobre__botao" href="#">Apoio</a>
-                    <a class="sobre__botao" href="#">Escuta</a>
+                    <a class="sobre__botao" href="#perguntas">Acolhimento</a>
+                    <a class="sobre__botao" href="#perguntas">Apoio</a>
+                    <a class="sobre__botao" href="#perguntas">Escuta</a>
                 </div>
             </div>
         </section>
@@ -102,7 +101,7 @@
             <div class="quem__interno">
 
                 <figure class="quem__figura">
-                    <img src="imagens/" alt="Imagem ilustrativa do projeto Pisiquê">
+                    <img src="imagens/pepper.png" alt="Imagem ilustrativa do projeto Pisiquê">
                 </figure>
 
                 <div class="quem__principal">
@@ -115,7 +114,7 @@
                             merecem ser ouvidos, acolhidos e respeitados.
                         </p>
                         <p class="quem__caixa">
-                            Por trás do projeto Psique, existe uma equipe de desenvolvedores que
+                            Por trás do projeto Pisiquê, existe uma equipe de desenvolvedores que
                             incentiva o diálogo e a valorização da saúde mental.
                         </p>
                     </div>
@@ -200,6 +199,15 @@
             </div>
         </section>
     </main>
+
+    <aside class="aviso-fixo" role="note">
+        <p>
+            <strong>Aviso:</strong> Este site não substitui atendimento profissional.
+            Em situações graves ou de crise, procure ajuda imediata:
+            CVV <a href="tel:188">188</a> (24 horas, gratuito) ou
+            SAMU <a href="tel:192">192</a>.
+        </p>
+    </aside>
 
     <script src="script.js"></script>
 </body>

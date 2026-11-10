@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
+.faq {
+    padding: 40px 103px 60px;
+    text-align: center;
+    min-height: 80vh;
+    font-family: 'Inter', Arial, sans-serif;
+    text-transform: none;
+}
+
+.faq h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--cor-secundaria);
+    margin: 0;
+}
+
+.faq h1 {
+    font-weight: 500;
+    font-size: 2.6rem;
+    color: var(--cor-secundaria);
+    margin: 0 0 8px;
+}
+
+.faq-sub {
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-card {
+    background: var(--cor-secundaria);
+    color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.faq-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.faq-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .faq {
+        padding: 40px 20px 60px;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
