@@ -11,8 +11,8 @@
     min-height: 56px;
     padding: 10px 20px;
     display: flex;
-    justify-content: center;   /* centraliza na horizontal */
-    align-items: center;       /* centraliza na vertical */
+    justify-content: center;   
+    align-items: center;       
 }
 
 .aviso-fixo p {
