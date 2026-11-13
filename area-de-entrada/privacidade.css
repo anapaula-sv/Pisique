@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* página ocupa a largura toda e o fundo fica todo azul */
+
 main {
     padding: 0;
 }
@@ -19,7 +19,7 @@ body.dark {
     font-family: 'Inter', Arial, sans-serif;
 }
 
-/* título principal */
+
 .privacidade-titulo {
     display: inline-block;
     background-color: #41527f;
@@ -42,7 +42,7 @@ body.dark {
     margin: 0 auto;
 }
 
-/* cards de cima (Privacidade e Anonimato) */
+
 .card-grande {
     background-color: #495b8a;
     border-radius: 24px;
@@ -68,7 +68,7 @@ body.dark {
     padding: 0 24px 20px;
 }
 
-/* cards de baixo (com ícone) */
+
 .card-icone {
     background-color: #495b8a;
     border-radius: 24px;
