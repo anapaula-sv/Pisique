@@ -105,9 +105,9 @@ Projeto de extensão desenvolvido por estudantes de Engenharia de Software do **
 
 ##  Como acessar
 
-```bash
-# 
-```
+
+* [Site hospedado](https://anapaula-sv.github.io/Pisique/)
+
 
 
 
