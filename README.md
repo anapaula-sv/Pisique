@@ -55,7 +55,6 @@ Atualmente o projeto está na fase de **desenvolvimento do MVP (Produto Mínimo 
 -  Página Inicial (Landing Page)
 -  Seção de FAQ (Perguntas Frequentes)
 -  Guia de Orientação de Serviços
--  Módulo de Vídeos e Exercícios de Respiração
 
 <details>
 <summary><b> Funcionalidades planejadas para próximas etapas (pós-MVP)</b></summary>
