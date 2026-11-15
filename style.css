@@ -37,6 +37,10 @@
         height: 100%;
     }
 
+    #unline {
+        text-decoration: none;
+    }
+
     #sub-bloco-1-header {
         display: flex;
         gap: 1.5rem;
