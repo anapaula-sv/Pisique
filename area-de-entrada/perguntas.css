@@ -2,6 +2,7 @@
 
 
 .faq {
+    align-content: center;
     padding: 40px 103px 60px;
     text-align: center;
     min-height: 80vh;
