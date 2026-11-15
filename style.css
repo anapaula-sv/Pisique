@@ -758,7 +758,6 @@
     }
 
     .sobre__titulo {
-        float: left;
         display: inline-block;
         margin: 0 0 2rem;
         padding: .5rem 3rem;
