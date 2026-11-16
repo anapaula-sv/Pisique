@@ -4,7 +4,7 @@
 
 **Plataforma web informativa de orientação em saúde mental, voltada principalmente para adolescentes.**
 
-[![Status](https://img.shields.io/badge/Status-MVP%20em%20Desenvolvimento-637AAE?style=for-the-badge&labelColor=F9ECC0)]()
+[![Status](https://img.shields.io/badge/Status-MVP-637AAE?style=for-the-badge&labelColor=F9ECC0)]()
 [![Instituição](https://img.shields.io/badge/Institui%C3%A7%C3%A3o-Centro%20Universit%C3%A1rio%20M%C3%A1rio%20Pontes%20Juc%C3%A1-637AAE?style=for-the-badge&labelColor=F9ECC0)]()
 [![Curso](https://img.shields.io/badge/Curso-Engenharia%20de%20Software-637AAE?style=for-the-badge&labelColor=F9ECC0)]()
 [![Local](https://img.shields.io/badge/Local-Macei%C3%B3%2FAL-637AAE?style=for-the-badge&labelColor=F9ECC0)]()
